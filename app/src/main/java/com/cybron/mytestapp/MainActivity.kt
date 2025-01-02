@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding?.root)
 
         binding?.apply {
+            // hello
             textView.setOnClickListener {
                 Toast.makeText(this@MainActivity,"My First Toast at Cybron",Toast.LENGTH_SHORT)
             }
